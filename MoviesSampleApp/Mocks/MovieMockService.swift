@@ -410,8 +410,6 @@ let data = """
 """.data(using: .utf8)!
 
 class MovieMockService: MovieServiceProtocol {
-   
-    
     func getMovies() -> AnyPublisher<[Movie], Error> {
         
         return Just(data)

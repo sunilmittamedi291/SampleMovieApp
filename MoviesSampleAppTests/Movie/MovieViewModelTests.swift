@@ -28,7 +28,6 @@ final class MovieViewModelTests: XCTestCase {
         viewModel = nil
     }
     
-    
     func testGetMovies() {
         // Arrange
         let movieService = MovieMockService()
